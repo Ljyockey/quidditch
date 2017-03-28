@@ -1,0 +1,41 @@
+/*idea for single function that randomly selects opponent excluding myTeam as an option*/
+
+var x=0;
+
+while (x<1)
+{
+  /*math random variable*/
+0.0-0.24 = gryf
+0.25-0.49 = slyth
+0.5-0.74 = huff
+0.75-0.99 = rave
+if (mathRandomOutcome) != (myTeam)
+ {
+   x++;
+ }
+
+}
+
+_________________________________________________________
+
+/*Ideas to incorporate objects/people*/
+
+A <opponent> student is eyeing you and may cast a spell! You do what?
+You see a student from which house?
+Slytherin: -10 points
+Gryffindor: + 10 points
+Ravenclaw: + 10 points
+Hufflepuff: -10 points
+
+var who uses an if statement to see if it is equal to the name of a student object. I then want to somehow use the varying value of who to be a placeholder that calls that specific object so that in the alert it can say “It’s this.name doing a this.spell”.
+
+________________________________________________________
+BLUDGERS
+
+You see a bludger towards you or another player
+-you
+mathRandom to dodge or get hit
+-another
+mathRandom for myTeam or rivalTeam
+_________________________________________________________
+Prompt for blunger, student, or snitch in a while loop. var = 0 until SNITCH is selected, then var++. Student and bludger need functions added.

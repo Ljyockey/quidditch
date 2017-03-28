@@ -1,0 +1,40 @@
+    switch(houseCase) {
+        case 'gryffindor': 
+            $("head").append("<link rel='stylesheet' type='text/css' href='css/gryffindor.css'>");
+            break;
+        case 'slytherin':
+            $("head").append("<link rel='stylesheet' type='text/css' href='css/slytherin.css'>");
+            break;
+        case 'hufflepuff':
+            $("head").append("<link rel='stylesheet' type='text/css' href='css/hufflepuff.css'>");
+            break;
+        case 'ravenclaw':
+            $("head").append("<link rel='stylesheet' type='text/css' href='css/ravenclaw.css'>");
+            break;
+        default:
+            prompt(house + " isn't a Hogwarts House. Try again - Gryffindor, Hufflepuff, Ravenclaw, or Slytherin.");
+    }
+    
+___________________________________________________________________
+
+  if (houseCase = "gryffindor") { 
+            $("head").append("<link rel='stylesheet' type='text/css' href='css/gryffindor.css'>");}
+  if (houseCase = "slytherin"){
+            $("head").append("<link rel='stylesheet' type='text/css' href='css/slytherin.css'>");}
+  if (houseCase = "hufflepuff"){
+            $("head").append("<link rel='stylesheet' type='text/css' href='css/hufflepuff.css'>");}
+  if (houseCase = "ravenclaw"){
+            $("head").append("<link rel='stylesheet' type='text/css' href='css/ravenclaw.css'>");}
+  else {house;}
+    });
+
+______________________________________________________________
+
+var slytherin = new student("Draco Malfoy", "Curse");
+var gryffindor = new student("Hermione Granger", "Countercurse");
+var ravenclaw = new student("Luna Lovegood", "Charms");
+var hufflepuff = new student("Justin Finch", "Enchated Bludger"); 
+
+
+_________________________________________________________________
+  alert("It's " stands.name ", with a " stands.spell ". Just what I'd expect from a " stands.house ". Meanwhile, your opponent has scored 10 points with the quaffel! Be careful.");

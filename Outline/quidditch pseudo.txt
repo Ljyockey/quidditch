@@ -1,0 +1,38 @@
+function Person (name, house) {
+this.name = name;
+this.house = house;
+}
+
+/*add speak method*/
+this.speak = function() {
+console.log("Hello");
+};
+
+var Test = new Person (test, ravenclaw);
+test.speak();
+
+function student (name, spell, play) {
+this.name = name;
+this.spell = spell;
+this.play = play; /*boolean to determine if Quidditch player*/
+
+function ravenclaw(name) {
+this.name = name;
+};
+
+ravenclaw.prototype = new student();
+
+
+if ( ravenclaw === houseCase)
+{
+  do something friendly;
+}
+
+if (ravenclaw === to opponenet)
+{
+do rival
+}
+
+else
+
+{ do nothing }

@@ -1,0 +1,7 @@
+.welcome::before {
+    content: " Welcome to Ravenclaw! Wit beyond measure is man’s greatest treasure and you certainly possess the charming brains necessary for this house. I think you will do great things here.";
+}
+
+.lesson::after {
+    content: " As a Ravenclaw, skills in the classroom are obvious. But skills on a broomstick? No one saw that coming! Word traveled fast and soon Professor Flitwick learned of your gifts on the field. Flitwick introduced you to Ravenclaws Quidditch captain, and after passing a short test on the fundamentals, you became Ravenclaw’s first ever first year seeker!";
+}
