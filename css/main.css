@@ -19,7 +19,7 @@ section {
 }
 
 .clickhere {
-    background-color: #14052E;
+    background-color: #330744;
     color: #989799;
     padding: 5px;
     border-radius: 5%;
@@ -78,6 +78,7 @@ img {
 
     .clickhere {
        opacity: .75;
+        background-color: #14052E;
     }
 
     img {
