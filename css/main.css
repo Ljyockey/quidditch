@@ -15,7 +15,6 @@ header p {
 
 section {
     text-align: center;
-    font-size: 2em;
     margin: 0 5%;
 }
 
@@ -54,9 +53,8 @@ form {
 }
 
 img {
-    height: 250px;
-    width:auto;
-    margin-right: 20px;
+    height: 125px;
+    width: auto;
 }
 
 #ready {
@@ -66,10 +64,25 @@ img {
 .display-scores {
     color: black;
     position: relative;
-    right: 90px;
+    right: 30px;
     bottom: 5px;
 }
 
 .opponent {
     text-transform: capitalize;
+}
+
+@media only screen and (min-width: 640px) {
+    section {
+        font-size: 2em;
+    }
+
+    img {
+        height: 250px;
+        margin-right: 20px;
+    }
+
+    .display-scores {
+        right: 90px;
+    }
 }
