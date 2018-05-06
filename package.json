@@ -1,0 +1,23 @@
+{
+  "name": "quidditch-2",
+  "version": "1.0.0",
+  "description": "practicing scss in an existing project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ljyockey/quidditch.git"
+  },
+  "author": "LJ Yockey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ljyockey/quidditch/issues"
+  },
+  "homepage": "https://github.com/Ljyockey/quidditch#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
